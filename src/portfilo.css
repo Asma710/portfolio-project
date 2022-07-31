@@ -1,0 +1,60 @@
+h1 {
+  font-family: "Arima Madurai", cursive;
+  font-weight: bolder;
+  color: aliceblue;
+  text-align: center;
+  font-size: 96px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  padding: 50px 0 5px;
+  margin-top: 60px;
+  font-size: 25px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 5px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 24px;
+}
+h4 {
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ff1361;
+  font-size: 45px;
+}
+.second-photo {
+  width: 700px;
+  height: 400px;
+}
+.fist-page {
+  z-index: 1;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+
+  background-size: 400% 400%;
+  width: 100%;
+  height: 100vh;
+  animation: animate 5s ease infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
