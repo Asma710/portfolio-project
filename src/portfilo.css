@@ -27,9 +27,17 @@ h4 {
   color: #ff1361;
   font-size: 45px;
 }
-.second-photo {
-  width: 700px;
-  height: 400px;
+p {
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.icon-color {
+  color: #44107a;
+  font-size: 25px;
 }
 .fist-page {
   z-index: 1;
