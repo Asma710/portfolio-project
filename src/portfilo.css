@@ -80,6 +80,12 @@ h4 {
   font-size: 50px;
   padding: 35px 20px;
 }
+.sorce-code {
+  font-family: var(--second-font-family);
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 20px;
+}
 button {
   font-family: var(--second-font-family);
   transition: all 0.2s ease-in-out;
