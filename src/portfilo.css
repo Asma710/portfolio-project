@@ -48,17 +48,18 @@ h4 {
   font-weight: 500;
 }
 .icon-color {
-  color: #44107a;
+  color: var(--second-color);
   font-size: 40px;
 }
 .contact {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #a3126e;
+  border: none;
   border-radius: 5px;
   padding: 15px;
   margin-top: 35px;
   background: white;
+  box-shadow: 5px 5px 5px rgb(193, 188, 188);
 }
 .contact i {
   transition: var(--transition);
