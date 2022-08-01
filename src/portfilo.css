@@ -54,6 +54,11 @@ h4 {
 .contact {
   display: flex;
   justify-content: space-between;
+  border: 1px solid #a3126e;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 35px;
+  background: white;
 }
 .contact i {
   transition: var(--transition);
@@ -74,7 +79,9 @@ button {
   padding: 6px;
   background: var(--first-color);
   color: var(--second-color);
-  padding: 15px 55px;
+  padding: 15px 25px;
+  margin-left: 55px;
+  font-size: 25px;
 }
 button:hover {
   color: var(--first-color);
