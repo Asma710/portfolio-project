@@ -39,6 +39,8 @@ h3 {
 p {
   font-family: var(--second-font-family);
   font-weight: 300;
+  line-height: 30px;
+  opacity: 0.9;
 }
 
 .title {
@@ -83,6 +85,7 @@ p {
   text-align: center;
   padding: 15px 20px;
 }
+
 button {
   font-family: var(--second-font-family);
   transition: all 0.2s ease-in-out;
