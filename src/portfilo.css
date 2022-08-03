@@ -114,7 +114,20 @@ p {
   border-radius: 10px;
   height: 200px;
 }
-
+.form-contact {
+  background: url("/images/photo.jpg") center fixed;
+  background-size: cover;
+  padding: 200px 40px 60px;
+}
+.contact-title {
+  text-align: center;
+  font-size: 60px;
+  font-family: var(--first-font-family);
+}
+.button-send {
+  margin: 15px auto;
+  display: block;
+}
 button {
   font-family: var(--second-font-family);
   transition: all 0.2s ease-in-out;
@@ -224,5 +237,11 @@ a {
   }
   .all-pages {
     padding: 5px;
+  }
+  .form-contact {
+    padding: 200px 25px 600px 25px;
+  }
+  .contact-title {
+    font-size: 45px;
   }
 }
