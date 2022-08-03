@@ -59,7 +59,7 @@ p {
   padding: 15px;
   margin-top: 20px;
   background: white;
-  box-shadow: 5px 5px 5px rgb(193, 188, 188);
+  box-shadow: 5px 5px 5px 5px rgb(193, 188, 188);
 }
 .contact i {
   transition: var(--transition);
@@ -103,12 +103,23 @@ p {
   background-image: linear-gradient(#fff1eb 0%, #ace0f9 100%);
   background-size: cover;
 }
+.work-page {
+  margin-top: 35px;
+}
+.weather-image:hover {
+  background-color: aliceblue;
+}
+.all-pages {
+  background: #eff0f5;
+  border-radius: 10px;
+  height: 200px;
+}
+
 button {
   font-family: var(--second-font-family);
   transition: all 0.2s ease-in-out;
   border: 1px solid var(--second-color);
   border-radius: 25px;
-  padding: 6px;
   background: var(--first-color);
   color: var(--second-color);
   padding: 15px 25px;
@@ -119,6 +130,17 @@ button:hover {
   color: var(--first-color);
   background: var(--second-color);
   transform: scale(1.1);
+}
+.project-button {
+  transition: all 0.2s ease-in-out;
+  padding: 15px 25px;
+  border-radius: 25px;
+  background: #9974ba;
+  color: white;
+}
+.project-button:hover {
+  background: white;
+  color: #9974ba;
 }
 img {
   transition: var(--transform);
@@ -194,5 +216,13 @@ a {
   .personal-image {
     display: block;
     margin: 70px auto 0px;
+  }
+  .project-button {
+    display: block;
+    margin: auto;
+    padding: 15px;
+  }
+  .all-pages {
+    padding: 5px;
   }
 }
