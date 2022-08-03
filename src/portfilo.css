@@ -114,11 +114,12 @@ p {
   border-radius: 10px;
   height: 200px;
 }
-.form-contact {
+.contact-inf {
   background: url("/images/photo.jpg") center fixed;
   background-size: cover;
-  padding: 200px 40px 60px;
+  padding: 80px 40px 60px;
 }
+
 .contact-title {
   text-align: center;
   font-size: 60px;
@@ -238,8 +239,8 @@ a {
   .all-pages {
     padding: 5px;
   }
-  .form-contact {
-    padding: 200px 25px 600px 25px;
+  .contact-inf {
+    padding: 50px 40px 350px;
   }
   .contact-title {
     font-size: 45px;
