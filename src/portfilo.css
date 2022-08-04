@@ -73,6 +73,7 @@ p {
 }
 .contact i:hover {
   transform: scale(1.5);
+  color: var(--third-color);
 }
 .container-page {
   margin-top: 0px;
@@ -235,7 +236,8 @@ a {
   button {
     font-size: 15px;
   }
-  button.contact {
+  button,
+  .contact {
     padding: 10px;
   }
   .title,
