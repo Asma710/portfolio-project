@@ -115,9 +115,13 @@ p {
   height: 200px;
 }
 .contact-inf {
-  background: url("/images/photo.jpg") center fixed;
+  background-image: url("/images/photo.jpg");
+  background-position: center;
   background-size: cover;
-  padding: 80px 40px 60px;
+  background-attachment: fixed;
+  height: 100%;
+
+  padding: 100px;
 }
 
 .contact-title {
@@ -192,7 +196,7 @@ a {
     background-position: 0 50%;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 1020px) {
   h1 {
     font-size: 45px;
   }
@@ -240,9 +244,18 @@ a {
     padding: 5px;
   }
   .contact-inf {
-    padding: 50px 40px 350px;
+    height: 800px;
   }
   .contact-title {
-    font-size: 45px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1180px) {
+  .personal-info {
+    margin-top: 55px;
+    height: 1125px;
+  }
+  .work-page {
+    padding-top: 50px;
   }
 }
