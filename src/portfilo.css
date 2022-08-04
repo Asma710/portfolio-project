@@ -1,9 +1,11 @@
 :root {
   --first-font-family: "Arima Madurai", cursive;
   --second-font-family: "Poppins", sans-serif;
-  --first-color: aliceblue;
+  --first-color: white;
   --text-align: center;
   --second-color: #a3126e;
+  --third-color: #01bbda;
+  --primary-color: #9974ba;
   --transition: all 0.2s ease-in-out;
   --transform: scale(1.1);
 }
@@ -15,13 +17,17 @@ h3 {
 }
 h2,
 h3,
-h4 {
+h4,
+contact-title {
   font-family: var(--second-font-family);
   font-weight: 400;
 }
+h1,
+title-projects {
+  font-family: var(--first-font-family);
+}
 
 h1 {
-  font-family: var(--first-font-family);
   font-weight: bolder;
   font-size: 96px;
 }
@@ -58,7 +64,7 @@ p {
   border-radius: 5px;
   padding: 15px;
   margin-top: 20px;
-  background: white;
+  background: var(--first-color);
   box-shadow: 5px 5px 5px 5px rgb(193, 188, 188);
 }
 .contact i {
@@ -75,7 +81,6 @@ p {
 
 .title-projects {
   color: black;
-  font-family: var(--first-font-family);
   text-align: center;
   font-size: 50px;
   padding: 10px 20px;
@@ -89,7 +94,7 @@ p {
 .personal-image {
   margin-top: 80px;
   box-shadow: 5px 5px 5px rgb(193, 188, 188);
-  background: white;
+  background: var(--first-color);
   padding: 25px;
   height: 400px;
   width: 400px;
@@ -114,13 +119,9 @@ p {
   border-radius: 10px;
   height: 200px;
 }
-.contact-inf {
-}
 
 .contact-title {
   color: #264c6e;
-  font-family: var(--second-font-family);
-  font-weight: 400;
   font-size: 80px;
   padding: 110px 0 0px;
 }
@@ -137,23 +138,27 @@ p {
   margin-top: 100px;
   width: 900px;
 }
+
+.button-contact,
+.project-button,
+button {
+  transition: var(--transition);
+}
 .button-contact {
-  border: 1px solid #01bbda;
+  border: 1px solid var(--third-color);
   border-radius: 5px;
-  background: #01bbda;
-  transition: all 0.2s ease-in-out;
+  background: var(--third-color);
   padding: 15px 25px;
-  color: white;
+  color: var(--first-color);
   margin-top: 80px;
   font-size: 20px;
 }
 .button-contact:hover {
-  background: white;
-  color: #01bbda;
+  background: var(--first-color);
+  color: var(--third-color);
 }
 button {
   font-family: var(--second-font-family);
-  transition: all 0.2s ease-in-out;
   border: 1px solid var(--second-color);
   border-radius: 25px;
   background: var(--first-color);
@@ -168,15 +173,14 @@ button:hover {
   transform: scale(1.1);
 }
 .project-button {
-  transition: all 0.2s ease-in-out;
   padding: 15px 25px;
   border-radius: 25px;
-  background: #9974ba;
-  color: white;
+  background: var(--primary-color);
+  color: var(--first-color);
 }
 .project-button:hover {
-  background: white;
-  color: #9974ba;
+  background: var(--first-color);
+  color: var(--primary-color);
 }
 img {
   transition: var(--transform);
@@ -229,33 +233,36 @@ a {
     font-size: 25px;
   }
   button {
-    padding: 10px;
     font-size: 15px;
   }
-  .contact {
+  button.contact {
     padding: 10px;
   }
-  .title {
-    font-size: 25px;
-  }
+  .title,
   .icon-color {
     font-size: 25px;
+  }
+  .icon-color,
+  .about-me,
+  .contact-title,
+  .contact-subtitle {
     text-align: center;
   }
   p {
     line-height: 25px;
   }
   .about-me {
-    text-align: center;
     margin-top: 60px;
   }
   .personal-image {
-    display: block;
     margin: 70px auto 0px;
   }
-  .project-button {
+  .project-button,
+  .button-contact,
+  .personal-image {
     display: block;
-    margin: auto;
+  }
+  .project-button {
     padding: 15px;
   }
   .all-pages {
@@ -265,15 +272,13 @@ a {
     height: 600px;
   }
   .contact-title {
-    text-align: center;
     font-size: 50px;
   }
   .contact-subtitle {
-    text-align: center;
     font-size: 40px;
   }
-  .button-contact {
-    display: block;
+  .button-contact,
+  .project-button {
     margin: auto;
   }
 }
