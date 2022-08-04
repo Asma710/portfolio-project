@@ -115,23 +115,41 @@ p {
   height: 200px;
 }
 .contact-inf {
-  background-image: url("/images/photo.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-
-  padding: 100px;
 }
 
 .contact-title {
-  text-align: center;
-  font-size: 60px;
-  font-family: var(--first-font-family);
+  color: #264c6e;
+  font-family: var(--second-font-family);
+  font-weight: 400;
+  font-size: 80px;
+  padding: 110px 0 0px;
+}
+.contact-subtitle {
+  padding: 15px 5px 45px;
+  font-size: 55px;
+  font-weight: 400;
 }
 .button-send {
   margin: 15px auto;
   display: block;
+}
+.girl-photo {
+  margin-top: 100px;
+  width: 900px;
+}
+.button-contact {
+  border: 1px solid #01bbda;
+  border-radius: 5px;
+  background: #01bbda;
+  transition: all 0.2s ease-in-out;
+  padding: 15px 25px;
+  color: white;
+  margin-top: 80px;
+  font-size: 20px;
+}
+.button-contact:hover {
+  background: white;
+  color: #01bbda;
 }
 button {
   font-family: var(--second-font-family);
@@ -244,10 +262,19 @@ a {
     padding: 5px;
   }
   .contact-inf {
-    height: 800px;
+    height: 600px;
   }
   .contact-title {
-    font-size: 15px;
+    text-align: center;
+    font-size: 50px;
+  }
+  .contact-subtitle {
+    text-align: center;
+    font-size: 40px;
+  }
+  .button-contact {
+    display: block;
+    margin: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 1180px) {
